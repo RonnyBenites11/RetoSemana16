@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import './Section.css';
 
 export const Section = ({ sectionName }) => {
@@ -8,7 +10,7 @@ export const Section = ({ sectionName }) => {
       texto:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi ut neque maiores, saepe et recusandae quae laudantium velit odio.',
       link: 'Learn more',
-      src: '/src/assets/img/story-img.jpg',
+      src: './src/components/img/story-img.jpg',
     },
     menu: {
       title: 'Explore',
@@ -17,10 +19,10 @@ export const Section = ({ sectionName }) => {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi ut neque maiores, saepe et recusandae quae laudantium velit odio.',
       link: 'See full menu',
       src: {
-        img1: '/src/assets/img/square-1.jpg',
-        img2: '/src/assets/img/square-2.jpg',
-        img3: '/src/assets/img/square-3.jpg',
-        img4: '/src/assets/img/square-4.jpg',
+        img1: './src/components/img/square-1.jpg',
+        img2: './src/assets/img/square-2.jpg',
+        img3: './src/assets/img/square-3.jpg',
+        img4: './src/assets/img/square-4.jpg',
       },
     },
     delight: {
@@ -52,9 +54,18 @@ export const Section = ({ sectionName }) => {
         {typeof info.src === 'string' ? (
           <img src={info.src} alt="imagen" />
         ) : (
-          Object.values(info.src).map((src, index) => <img src={src} alt={`imagen ${index + 1}`} />)
+          Object.values(info.src).map((src, index) => (
+            <img key={index} src={src} alt={`imagen ${index + 1}`} />
+          ))
         )}
       </div>
     </div>
   );
 };
+
+// Validación de las propiedades
+Section.propTypes = {
+  sectionName: PropTypes.string.isRequired,
+};
+
+export default Section;
