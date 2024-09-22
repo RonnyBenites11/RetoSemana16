@@ -1,0 +1,27 @@
+
+.banner {
+    height: 300px; /* Ajusta la altura como desees */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    text-align: center;
+  }
+  
+  .banner-content h1 {
+    font-family:  'Herr Von Muellerhoff', cursive;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #e1b164;; 
+  }
+  
+  .banner-content p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: #252525;;
+  }
