@@ -14,9 +14,9 @@ function App() {
     <div className="App">
       {/*header*/}
       <Section sectionName="story" />
-      <BreadBanners backgroundImage={breadImage} text="Always" subtext="FRESH" />
+      <BreadBanners backgroundImage={breadImage} text="Always" subtext="F R E S H" />
       <Section sectionName="menu" />
-      <BreadBanners backgroundImage={breadImage2} text="Erityng" subtext="TASTY" />
+      <BreadBanners backgroundImage={breadImage2} text="Everything" subtext="T A S T Y" />
       <Section sectionName="delight" />
       <Reviews />
 
