@@ -10,7 +10,7 @@ export const Section = ({ sectionName }) => {
       texto:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi ut neque maiores, saepe et recusandae quae laudantium velit odio.',
       link: 'Learn more',
-      src: './src/components/img/story-img.jpg',
+      src: 'https://i.ibb.co/pjmm5H2/story-img.jpg',
     },
     menu: {
       title: 'Explore',
@@ -19,10 +19,10 @@ export const Section = ({ sectionName }) => {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi ut neque maiores, saepe et recusandae quae laudantium velit odio.',
       link: 'See full menu',
       src: {
-        img1: './src/components/img/square-1.jpg',
-        img2: './src/assets/img/square-2.jpg',
-        img3: './src/assets/img/square-3.jpg',
-        img4: './src/assets/img/square-4.jpg',
+        img1: 'https://i.ibb.co/yggZWKb/square-1.jpg',
+        img2: 'https://i.ibb.co/VvkV6pY/square-2.jpg',
+        img3: 'https://i.ibb.co/28M4g9X/about-img-2.jpg',
+        img4: 'https://i.ibb.co/0J4j5WY/square-4.jpg',
       },
     },
     delight: {
@@ -32,8 +32,8 @@ export const Section = ({ sectionName }) => {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi ut neque maiores, saepe et recusandae quae laudantium velit odio.',
       link: 'Make a reservation',
       src: {
-        img1: '/src/assets/img/bakers-delight-1.jpg',
-        img2: '/src/assets/img/bakers-delight-2.jpg',
+        img1: 'https://i.ibb.co/sJdtbcy/bakers-delight-1.jpg',
+        img2: 'https://i.ibb.co/R34dgyx/bakers-delight-2.jpg',
       },
     },
   };

@@ -7,16 +7,16 @@ export const Header = () => {
         <div className="titulo">Bakery</div>
         <ul className="nav-links">
           <li>
-            <a href="#">Home</a>
+            <a href="#">HOME</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <a href="#">ABOUT US</a>
           </li>
           <li>
-            <a href="#">Reservation</a>
+            <a href="#">RESERVATION</a>
           </li>
           <li>
-            <a href="#">Bakers</a>
+            <a href="#">BAKERS</a>
           </li>
         </ul>
       </nav>

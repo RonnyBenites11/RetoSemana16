@@ -51,6 +51,8 @@
 .bakery-content {
   margin-bottom: 60px;
   text-align: left;
+  margin-left: -700px;
+
 }
 
 .bakery-content h1 {
