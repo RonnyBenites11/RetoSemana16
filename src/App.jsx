@@ -3,6 +3,7 @@ import Reviews from './components/Reviews';
 import BreadBanners from './components/BannerPan';
 import breadImage from './assets/img/tasteful-recipes.jpg';
 import breadImage2 from './assets/img/tasty.jpg';
+import { Section } from 'lucide-react';
 
 import Footer from './components/Footer';
 import './App.css';
