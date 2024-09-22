@@ -1,0 +1,84 @@
+.container-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bakery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.bakery-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0 7rem;
+}
+
+.bakery-title {
+  color: var(--main-font-color-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.bakery-title span {
+  color: var(--secondary-font-color);
+  font-family: var(--headings-font);
+  display: block;
+  font-size: 5.8rem;
+  text-transform: capitalize;
+  line-height: 0.5;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.bakery-txt {
+  font-family: var(--body-font);
+  color: var(--body-font-color);
+}
+
+.bakery-link {
+  font-size: 1.4rem;
+  color: var(--secondary-font-color);
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--secondary-font-color);
+  width: fit-content;
+  cursor: pointer;
+}
+
+.bakery-img {
+  height: 35rem;
+  width: 35rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.bakery-img-story {
+  grid-template-columns: 1fr;
+}
+
+.bakery-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.bakery-img-menu {
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 15rem;
+}
+
+.bakery-img-delight {
+  grid-template-columns: repeat(2, 1fr);
+  width: 40rem;
+}
+
+.bakery-info-menu {
+  order: 2;
+  margin-right: 10rem;
+  padding: 0;
+}

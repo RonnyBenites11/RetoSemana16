@@ -1,0 +1,27 @@
+:root {
+  --main-font: 'Source Sans Pro', sans-serif;
+  --secondary-font: 'Poiret One', cursive;
+  --body-font: 'Cabin', sans-serif;
+  --headings-font: 'Herr Von Muellerhoff', cursive;
+  --main-font-color-dark: #252525;
+  --secondary-font-color: #e1b164;
+  --body-font-color: #515151;
+  --white-color: #fff;
+  --dark-bg: #121212;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
